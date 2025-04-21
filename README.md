@@ -48,6 +48,7 @@ Once the app is running, you can interact with it as follows:
 - **Create a Todo**: Enter your task in the input field and click the "Add" button.
 - **Mark as Completed**: Click on the checkbox next to a todo item to mark it as completed.
 - **Delete a Todo**: Click the "Delete" button next to the todo item you wish to remove.
+-  **Update a Todo**: Click the "Edit" button next to the todo item you wish to update.
 
 ## Contributing
 
