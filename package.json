@@ -1,0 +1,27 @@
+{
+  "name": "get-it-done",
+  "version": "1.0.0",
+  "description": "Is a To-do App designed to help users manage and organize their tasks making it easier to stay organized, focused, and productive.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erinaurelie/GetItDone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erinaurelie/GetItDone/issues"
+  },
+  "homepage": "https://github.com/erinaurelie/GetItDone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get It Done</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="body">
+    <main>
+        <section>
+            <h1>Todo List</h1>
+            <p>Stay organized, get it done</p>
+
+            <div class="input-div">
+                <input type="text" placeholder="Task title">
+                <textarea placeholder="Task description"></textarea>
+               <div>
+                    <select class="js-category-dropdown">
+                        <option value="all">All</option>
+                        <option value="work">Work</option>
+                        <option value="personal">Personal</option>
+                    </select>
+                    <select class="js-priority">
+                        <option value="low">Low Priority</option>
+                        <option value="medium">Medium Priority</option>
+                        <option value="high">High Priority</option>
+                    </select>
+                    <input type="date">
+                    <button class="js-add-todo-btn">+</button>
+               </div>
+            </div>
+
+            <div class="new-category js-new-category">
+                <input type="text" placeholder="Add a category">
+                <button>+ Add Category</button>
+            </div>
+
+            <div class="categories js-categories-menu"></div>
+
+            <div class="todos-container js-todos-container"></div>
+        </section>
+
+        <section>
+            <div class="position">
+                <div class="input-div edit">
+                    <h1 style="font-size: 1.1rem;">Edit Task</h1>
+                    <input type="text" placeholder="Task title">
+                    <textarea placeholder="Task description"></textarea>
+                   <div>
+                        <select class="js-category-dropdown">
+                            <option value="all">All</option>
+                            <option value="work">Work</option>
+                            <option value="personal">Personal</option>
+                        </select>
+                        <select class="js-priority">
+                            <option value="low">Low Priority</option>
+                            <option value="medium">Medium Priority</option>
+                            <option value="high">High Priority</option>
+                        </select>
+                        <input type="date">
+                   </div>
+
+                   <div>
+                        <button class="cancel-edit js-cancel-edit">Cancel</button>
+                        <button class="save-changes js-save-changes">Save Changes</button>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
